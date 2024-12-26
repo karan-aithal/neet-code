@@ -8,3 +8,10 @@
 * input.txt -- sample input
 
 Ctrl + Shift + B , after adding Tasks.json
+
+
+2              // no of testcases
+5              // 5 is the number of elements
+1 2 3 4 5      // value of 5 elements     
+4               // test case no.2
+6 7 8 9         // value of 4 elements
