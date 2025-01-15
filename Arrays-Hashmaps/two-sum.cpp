@@ -22,7 +22,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
             // target - i = j(diff)
             // umap.count(diff) - checks if j is present n umapS 
         
-        int diff = target - nums[i];
+        int diff = target - nums[i];  // 7 - 3 = 4 , find 4 in the umap to solve for 3
 
                 if(umap.count(diff) && umap[diff] !=i) 
                 // check if umap has the diff-number and if diff-number's index(j) != i
@@ -36,6 +36,16 @@ vector<int> twoSum(vector<int>& nums, int target) {
     }
 
 
+
+
+
+
+
+
+// Input: 
+// nums = [3,4,5,6], target = 7
+
+// Output: [0,1]
 
 
 void solve(){
